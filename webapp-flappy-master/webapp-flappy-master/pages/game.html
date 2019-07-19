@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flappy Frog</title>
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/style.css"/>
+  </head>
+  <body style="background-color:#bcff00;">
+    <div class="title">
+      Flappy Frog!
+    </div>
+    <div id="rules">
+      Welcome to Flappy Frog!<br/>
+      The rules are simple:<br/>
+      -Press SPACE to jump<br/>
+      -Don't touch the pipes or the border of the game<br/>
+      -Don't touch the balloons or weights<br>
+      -Good luck!
+    </div>
+    <div id="game"></div>
+    <div class="row" style="text-align:center;">
+      <button type="button" class="btn-default" id="scoreBtn">Score</button>
+      <button type="button" class="btn-default" id="creditsBtn">Credits</button>
+      <button type="button" class="btn-default" id="helpBtn">Help</button>
+    </div><br/>
+    <div>
+      <div id="content"></div>
+    </div>
+
+    <div id="scores">Scores</div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"><img src="../assets/pepe.png" class="img-responsive"/></div>
+        <div class="col-md-4"><img src="../assets/pepe.png" class="img-responsive"/></div>
+        <div class="col-md-4"><img src="../assets/pepe.png" class="img-responsive"/></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../lib/phaser.min.js"></script>
+    <script type="text/javascript" src="../js/flappy.js"></script>
+    <script src="../js/interactivity.js"></script>
+  </body>
+</html>
+<!-- https://alexjfish.github.io/Flappy-Frog-Game/webapp-flappy-master/webapp-flappy-master/pages/game.html -->

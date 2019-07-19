@@ -1,0 +1,49 @@
+h1 {
+  color:#54ff10;
+}
+
+#text {
+  border: 10px dotted red;
+  width:100px;
+  margin:15px;
+  padding:15px;
+}
+.city {
+  color:green;
+  font-size:20pt;
+  font-weight:bold;
+  border:2px solid aqua;
+  padding:10px;
+}
+
+#game {
+  margin:20px;
+  margin-left: auto;
+  margin-right: auto;
+  width:800px;
+}
+
+.active {
+  background-color: yellow;
+}
+
+.title {
+  text-align:center;
+  border:2px solid green;
+  font-size:30pt;
+  font-weight:bold;
+  padding:10px;
+  background-color:#2dff00;
+}
+
+#rules {
+  text-align: center;
+  font-size: 15pt;
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+#content {
+  text-align: center;
+}
